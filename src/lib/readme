@@ -1,0 +1,4 @@
+- Contains larger, shared logic with side effects.
+- Interacts with APIs, database, auth, cookies, file storage.
+- Not tied to any specific module, used across the application.
+- Examples: auth session helper, database client, storage utilities.
