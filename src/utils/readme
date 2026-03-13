@@ -1,3 +1,0 @@
-- Contains small, pure, stateless helper functions.
-- No API calls, no external dependencies, no side effects.
-- Examples: string helpers, date helpers, math utils, className merge function.
