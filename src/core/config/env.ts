@@ -1,5 +1,6 @@
 export const env = {
-  API_URL: process.env.NEXT_PUBLIC_API_URL!,
-  ENABLE_LOGS: process.env.NEXT_PUBLIC_ENABLE_LOGS === "true",
-  ENV: process.env.NEXT_PUBLIC_ENV || "development",
+  API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL!,
+  APP_NAME: process.env.NEXT_PUBLIC_APP_NAME ?? "Enterprise",
+  APP_VERSION: process.env.NEXT_PUBLIC_APP_VERSION ?? "1.0.0",
+  NODE_ENV: process.env.NODE_ENV,
 };
