@@ -1,4 +1,7 @@
+import { env } from "./env";
+
 export const appConfig = {
+  apiBaseUrl: env.API_BASE_URL,
   appName: "Enterprise Frontend App",
   version: "1.0.0",
 
@@ -25,6 +28,7 @@ export const appConfig = {
   currency: "USD",
   supportEmail: "support@company.com",
 
+  requestTimeout: 30000,
   retry: {
     maxAttempts: 1,
     retryDelayMS: 500,
